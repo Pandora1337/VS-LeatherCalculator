@@ -11,21 +11,25 @@ const cants = {
     cantLiquidPerHide: 2,
     cantLeather: 1,
     maxHidePerBarrel: 25,
+    size: 'Small',
   },
   medium_hide: {
     cantLiquidPerHide: 4,
     cantLeather: 2,
     maxHidePerBarrel: 12,
+    size: 'Medium',
   },
   large_hide: {
     cantLiquidPerHide: 6,
     cantLeather: 3,
     maxHidePerBarrel: 8,
+    size: 'Large',
   },
   huge_hide: {
     cantLiquidPerHide: 10,
     cantLeather: 5,
     maxHidePerBarrel: 5,
+    size: 'Huge',
   },
 };
 
@@ -47,6 +51,8 @@ const cantSelectedHideSpan = document.querySelectorAll(".cantSelectedHideSpan"),
   cantLimeSpan = document.querySelectorAll(".cantLimeSpan"),
   cantBoraxSpan = document.querySelectorAll(".cantBoraxSpan"),
   cantPoweredBoraxSpan = document.querySelectorAll(".cantPoweredBoraxSpan");
+
+const allHides = document.querySelectorAll(".hide-pic")
 
 const minWaterPerBarrel = 10,
   maxWaterPerBarrel = 50;
@@ -81,10 +87,9 @@ select.addEventListener("change", (e) => {
   selectedHide = value;
   calc.style = "display: flex";
 
-  document.getElementById("hideImage").title = e.target.value;
-
   init();
   calculate();
+  image_replace(cants[value].size)
 });
 
 // INPUT RANGE HIDE
@@ -182,4 +187,15 @@ function resetValues() {
   maxLeather = 0;
   inputRangeHide.value = 1;
   cantSelectedHide = 1;
+}
+
+// Takes in a size of the hide. I.E. 'Large' or 'Small' and replaces all hides with the correct size version
+function image_replace(size) {
+  allHides.forEach((e) => {
+    baseSrc = e.getAttribute('data-base-src')
+    e.src = `${baseSrc}${size.toLowerCase()}.png`
+
+    baseTitle = e.getAttribute('data-base-title')
+    e.title = `${baseTitle} (${size})`
+  });
 }
