@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/img/Gamelogo-vintagestory.ico">
-    <title>Leather working calculator</title>
+    <title>Leather working calculator for Sturdy Leather</title>
 </head>
 
 <body>
     <div class="page-title">
-        <h1>Leather working calculator</h1>
+        <h1>Leather working calculator for Sturdy Leather</h1>
     </div>
 
     <div class="social_medias">
@@ -41,7 +41,8 @@
         <div class="calc">
             <div class="selectors">
                 <!-- HIDE -->
-                <img class="hide-pic" src="" data-base-src="./assets/img/hide-raw-" alt="" id="hideImage" title="" data-base-title="Raw Hide">
+                <img class="hide-pic" src="" data-base-src="./assets/img/hide-raw-" alt="" id="hideImage" title=""
+                    data-base-title="Raw Hide">
                 <p>Hides <span class="cantSelectedHideSpan">x</span></p>
 
                 <div id="hide_range">
@@ -51,7 +52,7 @@
                 </div>
 
                 <!-- LEATHER -->
-                <img src="./assets/img/Leather.png" alt="" srcset="" title="Leather">
+                <img class="leather-switcheroo" src="" data-base-src="./assets/img/leather" alt="" srcset="" title="Leather">
                 <p>Leathers <span class="cantSelectedLeatherSpan">x</span></p>
 
                 <div id="leather_range">
@@ -63,11 +64,12 @@
             </div>
             <div class="shopping_list">
                 <h3>Shopping List</h3>
+                <h4>Raw</h4>
                 <div class="item-containers">
                     <!-- Hides -->
                     <div class="item">
                         <p>Hide</p>
-                        <img class="hide-pic" style="width: 60px; height: 60px;" src="" data-base-src="./assets/img/hide-raw-" alt="" title="" data-base-title="Raw Hide">
+                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-raw-" alt="" title="" data-base-title="Raw Hide">
                         <span class="cantSelectedHideSpan">x</span>
                     </div>
                     <!-- Log -->
@@ -79,6 +81,7 @@
                         </div>
                         <span class="cantTotalLogsSpan">x</span>
                     </div>
+                    
                     <!-- Solvent -->
                     <div class="item">
                         <p>Lime or Powdered borax</p>
@@ -91,6 +94,37 @@
                             <span class="cantPoweredBoraxSpan">x</span>
                         </div>
                     </div>
+
+                    <!-- Saltpeter -->
+                    <div class="item shopping-sturdy">
+                        <p>Saltpeter</p>
+                        <img src="./assets/img/saltpeter.png" alt="" title="Saltpeter">
+                        <p><span class="cantShopSaltpeter">x</span></p>
+                    </div>
+
+                    <!-- Sulfur -->
+                    <div class="item shopping-sturdy">
+                        <p>Powdered Sulfur</p>
+                        <img src="./assets/img/powder-sulfur.png" alt="" title="Powdered Sulfur">
+                        <p><span class="cantShopSulfur">x</span></p>
+                    </div>
+
+                    <!-- Chromite -->
+                    <div class="item shopping-sturdy">
+                        <p>Crushed Chromite</p>
+                        <img src="./assets/img/crushed-chromite.png" alt="" title="Crushed Chromite">
+                        <p><span class="cantShopChromite">x</span></p>
+                    </div>
+
+                    <!-- Beeswax -->
+                    <div class="item shopping-sturdy">
+                        <p>Beeswax</p>
+                        <img src="./assets/img/beeswax.png" alt="" title="Beeswax">
+                        <p><span class="cantShopBeeswax">x</span></p>
+                    </div>
+                </div>
+                <h4>Intermediate</h4>
+                <div class="item-containers">
                     <!-- Solvent -->
                     <div class="item">
                         <p>Limewater or Diluited Borax</p>
@@ -103,17 +137,33 @@
                             <p><span class="cantBoraxSpan">x</span>L</p>
                         </div>
                     </div>
+
                     <!-- Weak tanin -->
-                    <div class="item">
+                    <div class="item shopping-leather">
                         <p>Weak tanin</p>
                         <img src="./assets/img/Weak_tannin.png" alt="" title="Weak Tannin">
                         <p><span class="cantLiquidSpan">x</span>L</p>
                     </div>
+
                     <!-- Strong tanin -->
-                    <div class="item">
+                    <div class="item shopping-leather">
                         <p>Strong tanin</p>
                         <img src="./assets/img/Strong_tannin.png" alt="" title="Strong Tannin">
                         <p><span class="cantLiquidSpan">x</span>L</p>
+                    </div>
+
+                    <!-- Sulfuric Acid -->
+                    <div class="item shopping-sturdy">
+                        <p>Sulfuric Acid</p>
+                        <img src="./assets/img/acid-full-sulfuric.png" alt="" title="Sulfuric Acid">
+                        <p><span class="cantPotAcid">x</span>L</p>
+                    </div>
+
+                    <!-- Sulfate -->
+                    <div class="item shopping-sturdy">
+                        <p>Chromium Sulfate</p>
+                        <img src="./assets/img/sulfate-full-chromite.png" alt="" title="Chromium Sulfate">
+                        <p><span class="cantPotSulfate">x</span>L</p>
                     </div>
                 </div>
             </div>
@@ -184,11 +234,13 @@
                                     </td>
                                     <td rowspan="2"> + </td>
                                     <td>
-                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-raw-" alt="" title="" data-base-title="Raw Hide">
+                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-raw-" alt=""
+                                            title="" data-base-title="Raw Hide">
                                     </td>
                                     <td rowspan="2"> = </td>
                                     <td>
-                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-soaked-" alt="" title="" data-base-title="Soaked Hide">
+                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-soaked-" alt=""
+                                            title="" data-base-title="Soaked Hide">
                                     </td>
                                 </tr>
                                 <tr>
@@ -210,11 +262,13 @@
                         <table>
                             <tbody>
                                 <tr>
-                                    <td><img class="hide-pic" src="" data-base-src="./assets/img/hide-soaked-" alt="" title="" data-base-title="Soaked Hide"></td>
+                                    <td><img class="hide-pic" src="" data-base-src="./assets/img/hide-soaked-" alt=""
+                                            title="" data-base-title="Soaked Hide"></td>
                                     <td rowspan="2"> + </td>
                                     <td><img src="./assets/img/Knife-flint.png" alt="" title="Knife"></td>
                                     <td rowspan="2"> = </td>
-                                    <td><img class="hide-pic" src="" data-base-src="./assets/img/hide-scraped-" alt="" title="" data-base-title="Scraped Hide"></td>
+                                    <td><img class="hide-pic" src="" data-base-src="./assets/img/hide-scraped-" alt=""
+                                            title="" data-base-title="Scraped Hide"></td>
                                 </tr>
                                 <tr>
                                     <td><span class="cantSelectedHideSpan">1</span></td>
@@ -227,7 +281,7 @@
                 </div>
 
                 <!-- WEAK TANIN -->
-                <div class="tableContainer">
+                <div class="tableContainer leather">
                     <h4>Weak Tanin</h4>
                     <div>
                         <table>
@@ -257,7 +311,7 @@
                 </div>
 
                 <!-- PREPARED HIDE -->
-                <div class="tableContainer">
+                <div class="tableContainer leather">
                     <h4>Prepared Hide</h4>
                     <div>
                         <table>
@@ -272,11 +326,13 @@
                                     </td>
                                     <td rowspan="2"> + </td>
                                     <td>
-                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-scraped-" alt="" title="" data-base-title="Scraped Hide">
+                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-scraped-" alt=""
+                                            title="" data-base-title="Scraped Hide">
                                     </td>
                                     <td rowspan="2"> = </td>
                                     <td>
-                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-prepared-" alt="" title="" data-base-title="Prepared Hide">
+                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-prepared-" alt=""
+                                            title="" data-base-title="Prepared Hide">
                                     </td>
                                 </tr>
                                 <tr>
@@ -291,7 +347,7 @@
                 </div>
 
                 <!-- STRONG TANIN -->
-                <div class="tableContainer">
+                <div class="tableContainer leather">
                     <h4>Strong Tanin</h4>
                     <div>
                         <table>
@@ -332,7 +388,7 @@
                 </div>
 
                 <!-- LEATHER -->
-                <div class="tableContainer">
+                <div class="tableContainer leather">
                     <h4>Leather</h4>
                     <div>
                         <table>
@@ -347,11 +403,12 @@
                                     </td>
                                     <td rowspan="2"> + </td>
                                     <td>
-                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-prepared-" alt="" title="" data-base-title="Prepared Hide">
+                                        <img class="hide-pic" src="" data-base-src="./assets/img/hide-prepared-" alt=""
+                                            title="" data-base-title="Prepared Hide">
                                     </td>
                                     <td rowspan="2"> = </td>
                                     <td>
-                                        <img src="./assets/img/Leather.png" alt="" title="Leather">
+                                        <img src="./assets/img/leather.png" alt="" title="Leather">
                                     </td>
                                 </tr>
                                 <tr>
@@ -364,6 +421,175 @@
                         </table>
                     </div>
                 </div>
+
+                <!-- SULFURIC ACID -->
+                <div class="tableContainer sturdy">
+                    <h4>Sulfuric Acid</h4>
+                    <div>
+                        <table>
+                            <tr>
+                                <td rowspan="2"> <img src="./assets/img/Claypot-burned.png" alt="" title="Cooking Pot">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/Water-blob.png" alt="" title="Water">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/saltpeter.png" alt="" title="Saltpeter">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/powder-sulfur.png" alt="" title="Powdered Sulfur">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/powder-sulfur.png" alt="" title="Powdered Sulfur">
+                                </td>
+                                <td rowspan="2">=</td>
+                                <td>
+                                    <img src="./assets/img/acid-full-sulfuric.png" alt="" title="Sulfuric Acid">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="cantPotAcid">x</span>L</td>
+                                <td><span class="cantPotAcid">x</span></td>
+                                <td><span class="cantPotAcid">x</span></td>
+                                <td><span class="cantPotAcid">x</span></td>
+                                <td><span class="cantPotAcid">x</span>L</td>
+                            </tr>
+                        </table>
+                    </div>
+                    Number of crafts: <span class="potOpsAcid">x</span> (Max <span class="potOpsMax" ></span> items at a time)
+                </div>
+
+                <!-- CHROMIUM SULFATE -->
+                <div class="tableContainer sturdy">
+                    <h4>Chromium Sulfate</h4>
+                    <div>
+                        <table>
+                            <tr>
+                                <td rowspan="2"> <img src="./assets/img/Claypot-burned.png" alt="" title="Cooking Pot">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/acid-full-sulfuric.png" alt="" title="Sulfuric Acid">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/acid-full-sulfuric.png" alt="" title="Sulfuric Acid">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/crushed-chromite.png" alt="" title="Crushed Chromite">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/crushed-chromite.png" alt="" title="Crushed Chromite">
+                                </td>
+                                <td rowspan="2">=</td>
+                                <td>
+                                    <img src="./assets/img/sulfate-full-chromite.png" alt="" title="Chromium Sulfate">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="cantPotSulfate">x</span>L</td>
+                                <td><span class="cantPotSulfate">x</span>L</td>
+                                <td><span class="cantPotSulfate">x</span></td>
+                                <td><span class="cantPotSulfate">x</span></td>
+                                <td><span class="cantPotSulfate">x</span>L</td>
+                            </tr>
+                        </table>
+                    </div>
+                    Number of crafts: <span class="potOpsSulfate">x</span> (Max <span class="potOpsMax" ></span> items at a time)
+                </div>
+
+
+                <!-- CHROMIUM TANNED LEATHER -->
+                <div class="tableContainer sturdy">
+                    <h4>Chromium Tanned Leather</h4>
+                    <div>
+                        <table>
+                            <tr>
+                                <td rowspan="2"> <img src="./assets/img/Claypot-burned.png" alt="" title="Cooking Pot">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/sulfate-full-chromite.png" alt="" title="Chromium Sulfate">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/sulfate-full-chromite.png" alt="" title="Chromium Sulfate">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/sulfate-full-chromite.png" alt="" title="Chromium Sulfate">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img class="hide-pic" src="" data-base-src="./assets/img/hide-scraped-" alt=""
+                                        title="" data-base-title="Scraped Hide">
+                                </td>
+                                <td rowspan="2">=</td>
+                                <td>
+                                    <img class="hide-pic" src="" data-base-src="./assets/img/hide-chromium-" alt=""
+                                        title="" data-base-title="Chromium Tanned Hide">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="cantSelectedHideSpan">x</span>L</td>
+                                <td><span class="cantSelectedHideSpan">x</span>L</td>
+                                <td><span class="cantSelectedHideSpan">x</span>L</td>
+                                <td><span class="cantSelectedHideSpan">x</span></td>
+                                <td><span class="cantSelectedHideSpan">x</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    Number of crafts: <span class="potOpsTanned">x</span> (Max <span class="potOpsMax" ></span> items at a time)
+                </div>
+
+                <!-- STURDY LEATHER -->
+                <div class="tableContainer sturdy">
+                    <h4>Sturdy Leather</h4>
+                    <div>
+                        <table>
+                            <tr>
+                                <td rowspan="2"> <img src="./assets/img/Claypot-burned.png" alt="" title="Cooking Pot">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/beeswax.png" alt="" title="Beeswax">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/beeswax.png" alt="" title="Beeswax">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img src="./assets/img/beeswax.png" alt="" title="Beeswax">
+                                </td>
+                                <td rowspan="2">+</td>
+                                <td>
+                                    <img class="hide-pic" src="" data-base-src="./assets/img/hide-chromium-" alt=""
+                                        title="" data-base-title="Chromium Tanned Hide">
+                                </td>
+                                <td rowspan="2">=</td>
+                                <td>
+                                    <img src="./assets/img/leather-sturdy.png" alt="" title="Sturdy Leather">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="cantSelectedHideSpan">x</span></td>
+                                <td><span class="cantSelectedHideSpan">x</span></td>
+                                <td><span class="cantSelectedHideSpan">x</span></td>
+                                <td><span class="cantSelectedHideSpan">x</span></td>
+                                <td><span class="cantSelectedLeatherSpan">x</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    Number of crafts: <span class="potOpsLeather">x</span> (Max <span class="potOpsMax" ></span> items at a time)
+                </div>
+
             </div>
         </div>
 
