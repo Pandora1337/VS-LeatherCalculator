@@ -255,10 +255,10 @@ function calculate() {
   })
 
   // Pot Crafts
-  potOpsAcid.textContent = Math.max(Math.floor(acid / maxUnitsPerCookingPot), 1)
-  potOpsSulfate.textContent = Math.max(Math.floor(sulfate / maxUnitsPerCookingPot), 1)
-  potOpsTanned.textContent = Math.max(Math.floor(cantSelectedHide / maxUnitsPerCookingPot), 1)
-  potOpsLeather.textContent = Math.max(Math.floor(cantSelectedHide / maxUnitsPerCookingPot), 1)
+  potOpsAcid.textContent = Math.max(Math.ceil(acid / maxUnitsPerCookingPot), 1)
+  potOpsSulfate.textContent = Math.max(Math.ceil(sulfate / maxUnitsPerCookingPot), 1)
+  potOpsTanned.textContent = Math.max(Math.ceil(cantSelectedHide / maxUnitsPerCookingPot), 1)
+  potOpsLeather.textContent = Math.max(Math.ceil(cantSelectedHide / maxUnitsPerCookingPot), 1)
 
   // Shopping List
   shoppingBeeswax.forEach((e) => {
@@ -321,7 +321,7 @@ function toggleRecipes(isSturdy) {
     })
 
   } else {
-    
+
     // Leather Slider
     let baseSrc = leatherSwitcheroo.getAttribute("data-base-src")
     leatherSwitcheroo.src = `${baseSrc}.png`
