@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/Gamelogo-vintagestory.ico">
+    <title>Leather working calculator for Sturdy Leather</title>
+</head>
+
+<body>
+    <div class="page-title">
+        <h1>Leather working calculator for Sturdy Leather</h1>
+    </div>
+
+    <div class="social_medias">
+        <a href="https://github.com/Elias288" title="Github">
+            <img src="./assets/svg/github-142-svgrepo-com.svg" alt="github">
+        </a>
+
+        <a href="https://discord.com/users/477665668800708619" title="Discord">
+            <img src="./assets/svg/discord-svgrepo-com.svg" alt="discord">
+        </a>
+
+        <a href="https://github.com/Elias288/LeatherCalculator-VintageStory/blob/master/README.md" title="Data table">
+            <img src="./assets/svg/table-list-svgrepo-com.svg" alt="">
+        </a>
+
+        <a href="https://elias288-github-io.translate.goog/Tutorial-traducir-mods-VintageStory/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp"
+            target="_blank" title="Tutorial how to translate game mods">
+            <img src="./assets/svg/translate-svgrepo-com.svg" alt="">
+        </a>
+    </div>
+    <div class="container">
+        <div class="selector_container">
+            <select name="select" id="selectHide" onchange="generateCraftingGrid(this.value)">
+                <option value="leather-huge">Leather</option>
+                <option value="leather-sturdy-large">Sturdy Leather</option>
+            </select>
+        </div>
+
+        <div class="calc">
+            <div class="selectors">
+                <!-- TODO: Update input -->
+                <!-- HIDE -->
+                <img class="hide-pic" src="" data-base-src="./assets/img/hide-raw-" alt="" id="hideImage" title=""
+                    data-base-title="Raw Hide">
+                <p>Hides <span class="cantSelectedHideSpan">x</span></p>
+
+                <div id="hide_range">
+                    <span>1</span>
+                    <input id="inputRangeHide" type="range" min="1" max="10" value="1" style="width: 200px;">
+                    <span id="maxHideSpan">x</span>
+                </div>
+
+                <!-- LEATHER -->
+                <img class="leather-switcheroo" src="" data-base-src="./assets/img/leather" alt="" srcset=""
+                    title="Leather">
+                <p>Leathers <span class="cantSelectedLeatherSpan">x</span></p>
+
+                <div id="leather_range">
+                    <span id="minLeatherSpan">1</span>
+                    <input id="inputRangeLeather" type="range" min="1" max="10" value="1" style="width: 200px;">
+                    <span id="maxLeatherSpan">x</span>
+                </div>
+
+            </div>
+            <div class="shopping_list">
+                <!-- TODO: Categories -->
+                <!-- TODO: Optional Items UI -->
+                <h3>Shopping List</h3>
+                <h4>Raw</h4>
+                <div class="item-containers">
+                    <!-- Hides -->
+                    <!-- <div class="item">
+                        <p>Hide</p>
+                        <img class="hide-pic" src="./assets/img/hide-raw-small.png" data-base-src="" alt="" title=""
+                            data-base-title="Raw Hide">
+                        <span class="cantSelectedHideSpan">x</span>
+                    </div> -->
+                </div>
+                <h4>Intermediate</h4>
+                <div class="item-containers">
+                    <!-- Solvent -->
+                    <!-- <div class="item">
+                        <p>Limewater or Diluited Borax</p>
+                        <div>
+                            <img src="./assets/img/limewaterportion.png" alt="" title="Limewater">
+                            <img src="./assets/img/dilutedboraxportion.png" alt="" title="Diluited Borax">
+                        </div>
+                        <div class="shopping_optional_cant_items">
+                            <p><span class="cantLimeSpan">x</span>L</p>
+                            <p><span class="cantBoraxSpan">x</span>L</p>
+                        </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+
+            <div class="process-list" id="crafting-grids"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
