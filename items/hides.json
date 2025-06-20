@@ -1,0 +1,82 @@
+{
+    "hide-raw-small": {
+        "name": "Raw Hide (Small)",
+        "id": "hide-raw-small",
+        "liquid": false
+    },
+    "hide-raw-medium": {
+        "name": "Raw Hide (Medium)",
+        "id": "hide-raw-medium",
+        "liquid": false
+    },
+    "hide-raw-large": {
+        "name": "Raw Hide (Large)",
+        "id": "hide-raw-large",
+        "liquid": false
+    },
+    "hide-raw-huge": {
+        "name": "Raw Hide (Huge)",
+        "id": "hide-raw-huge",
+        "liquid": false
+    },
+    "hide-soaked-small": {
+        "name": "Soaked Hide (Small)",
+        "id": "hide-soaked-small",
+        "liquid": false
+    },
+    "hide-soaked-medium": {
+        "name": "Soaked Hide (Medium)",
+        "id": "hide-soaked-medium",
+        "liquid": false
+    },
+    "hide-soaked-large": {
+        "name": "Soaked Hide (Large)",
+        "id": "hide-soaked-large",
+        "liquid": false
+    },
+    "hide-soaked-huge": {
+        "name": "Soaked Hide (Huge)",
+        "id": "hide-soaked-huge",
+        "liquid": false
+    },
+    "hide-scraped-small": {
+        "name": "Scraped Hide (Small)",
+        "id": "hide-scraped-small",
+        "liquid": false
+    },
+    "hide-scraped-medium": {
+        "name": "Scraped Hide (Medium)",
+        "id": "hide-scraped-medium",
+        "liquid": false
+    },
+    "hide-scraped-large": {
+        "name": "Scraped Hide (Large)",
+        "id": "hide-scraped-large",
+        "liquid": false
+    },
+    "hide-scraped-huge": {
+        "name": "Scraped Hide (Huge)",
+        "id": "hide-scraped-huge",
+        "liquid": false
+    },
+    "hide-prepared-small": {
+        "name": "Prepared Hide (Small)",
+        "id": "hide-prepared-small",
+        "liquid": false
+    },
+    "hide-prepared-medium": {
+        "name": "Prepared Hide (Medium)",
+        "id": "hide-prepared-medium",
+        "liquid": false
+    },
+    "hide-prepared-large": {
+        "name": "Prepared Hide (Large)",
+        "id": "hide-prepared-large",
+        "liquid": false
+    },
+    "hide-prepared-huge": {
+        "name": "Prepared Hide (Huge)",
+        "id": "hide-prepared-huge",
+        "liquid": false
+    }
+}

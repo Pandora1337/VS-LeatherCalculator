@@ -1,14 +1,26 @@
 let recipes = null;
 let items = null;
 
-// load recipes
+// load recipes and items
 (async () => {
-    recipes = await loadJSON("recipes.json")
-    items = await loadJSON("items.json")
-    console.log("Recipes and Items loaded")
-    // recursiveCrafting("leather-sturdy-huge", 32)
-    // addShoppingIngredient("leather", 1)
+    const index = await loadJSON("fileIndex.json")
+    recipes = await loadFolder(index["recipes"])
+    items = await loadFolder(index["items"])
 })()
+
+async function loadFolder(entry) {
+    let combined = {}
+    for (let i = 0; i < entry.files.length; i++) {
+        const file = entry.files[i];
+        const data = await loadJSON(entry.root + '/' + file)
+
+        for (const key in data) {
+            combined[key] = data[key]
+        }
+    }
+    console.log(`${entry.root} loaded!`)
+    return combined
+}
 
 async function loadJSON(file) {
     return fetch(file)

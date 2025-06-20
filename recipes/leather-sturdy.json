@@ -1,0 +1,158 @@
+{
+    "sulfuric-acid": {
+        "item": "sulfuric-acid",
+        "count": 1,
+        "station": {
+            "item": "cooking-pot",
+            "portionSize": 6
+        },
+        "ingredients": [
+            {
+                "item": "water",
+                "count": 1
+            },
+            {
+                "item": "saltpeter",
+                "count": 1
+            },
+            {
+                "item": "powder-sulfur",
+                "count": 1
+            },
+            {
+                "item": "powder-sulfur",
+                "count": 1
+            }
+        ]
+    },
+    "chromium-sulfate": {
+        "item": "chromium-sulfate",
+        "count": 1,
+        "station": {
+            "item": "cooking-pot",
+            "portionSize": 6
+        },
+        "ingredients": [
+            {
+                "item": "sulfuric-acid",
+                "count": 1
+            },
+            {
+                "item": "sulfuric-acid",
+                "count": 1
+            },
+            {
+                "item": "crushed-chromite",
+                "count": 1
+            },
+            {
+                "item": "crushed-chromite",
+                "count": 1
+            }
+        ]
+    },
+    "hide-chromium-large": {
+        "item": "hide-chromium-large",
+        "count": 1,
+        "station": {
+            "item": "cooking-pot",
+            "portionSize": 6
+        },
+        "ingredients": [
+            {
+                "item": "chromium-sulfate",
+                "count": 1
+            },
+            {
+                "item": "chromium-sulfate",
+                "count": 1
+            },
+            {
+                "item": "chromium-sulfate",
+                "count": 1
+            },
+            {
+                "item": "hide-scraped-large",
+                "count": 1
+            }
+        ]
+    },
+    "hide-chromium-huge": {
+        "item": "hide-chromium-huge",
+        "count": 1,
+        "station": {
+            "item": "cooking-pot",
+            "portionSize": 6
+        },
+        "ingredients": [
+            {
+                "item": "chromium-sulfate",
+                "count": 1
+            },
+            {
+                "item": "chromium-sulfate",
+                "count": 1
+            },
+            {
+                "item": "chromium-sulfate",
+                "count": 1
+            },
+            {
+                "item": "hide-scraped-huge",
+                "count": 1
+            }
+        ]
+    },
+    "leather-sturdy-large": {
+        "item": "leather-sturdy",
+        "count": 3,
+        "station": {
+            "item": "cooking-pot",
+            "portionSize": 6
+        },
+        "ingredients": [
+            {
+                "item": "beeswax",
+                "count": 1
+            },
+            {
+                "item": "beeswax",
+                "count": 1
+            },
+            {
+                "item": "beeswax",
+                "count": 1
+            },
+            {
+                "item": "hide-chromium-large",
+                "count": 1
+            }
+        ]
+    },
+    "leather-sturdy-huge": {
+        "item": "leather-sturdy",
+        "count": 6,
+        "station": {
+            "item": "cooking-pot",
+            "portionSize": 6
+        },
+        "ingredients": [
+            {
+                "item": "beeswax",
+                "count": 1
+            },
+            {
+                "item": "beeswax",
+                "count": 1
+            },
+            {
+                "item": "beeswax",
+                "count": 1
+            },
+            {
+                "item": "hide-chromium-huge",
+                "count": 1
+            }
+        ]
+    }
+}

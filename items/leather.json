@@ -1,0 +1,61 @@
+{
+    "barrel": {
+        "name": "Barrel",
+        "id": "barrel"
+    },
+    "water": {
+        "name": "Water",
+        "id": "waterportion",
+        "liquid": true
+    },
+    "lime": {
+        "name": "Lime",
+        "id": "lime",
+        "liquid": false
+    },
+    "limewater": {
+        "name": "Limewater",
+        "id": "limewaterportion",
+        "liquid": true
+    },
+    "powder-borax": {
+        "name": "Powdered Borax",
+        "id": "powder-borax",
+        "liquid": false
+    },
+    "dilutedborax": {
+        "name": "Diluted Borax",
+        "id": "dilutedboraxportion",
+        "liquid": true
+    },
+    "log-oak": {
+        "name": "Oak Log",
+        "id": "log-grown-oak-ud",
+        "liquid": false
+    },
+    "log-acacia": {
+        "name": "Acacia Log",
+        "id": "log-grown-acacia-ud",
+        "liquid": false
+    },
+    "weak-tannin": {
+        "name": "Weak Tannin",
+        "id": "weaktanninportion",
+        "liquid": true
+    },
+    "strong-tannin": {
+        "name": "Strong Tannin",
+        "id": "strongtanninportion",
+        "liquid": true
+    },
+    "knife": {
+        "name": "Knife",
+        "id": "knife-generic-flint",
+        "liquid": false
+    },
+    "leather": {
+        "name": "Leather",
+        "id": "leather-normal-plain",
+        "liquid": false
+    }
+}

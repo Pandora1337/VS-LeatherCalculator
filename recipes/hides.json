@@ -1,0 +1,222 @@
+{
+    "hide-soaked-small": {
+        "item": "hide-soaked-small",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "limewater",
+                "count": 2,
+                "option": {
+                    "item": "dilutedborax",
+                    "count": 2
+                }
+            },
+            {
+                "item": "hide-raw-small",
+                "count": 1
+            }
+        ]
+    },
+    "hide-soaked-medium": {
+        "item": "hide-soaked-medium",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "limewater",
+                "count": 4,
+                "option": {
+                    "item": "dilutedborax",
+                    "count": 4
+                }
+            },
+            {
+                "item": "hide-raw-medium",
+                "count": 1
+            }
+        ]
+    },
+    "hide-soaked-large": {
+        "item": "hide-soaked-large",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "limewater",
+                "count": 6,
+                "option": {
+                    "item": "dilutedborax",
+                    "count": 6
+                }
+            },
+            {
+                "item": "hide-raw-large",
+                "count": 1
+            }
+        ]
+    },
+    "hide-soaked-huge": {
+        "item": "hide-soaked-huge",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "limewater",
+                "count": 10,
+                "option": {
+                    "item": "dilutedborax",
+                    "count": 10
+                }
+            },
+            {
+                "item": "hide-raw-huge",
+                "count": 1
+            }
+        ]
+    },
+    "hide-scraped-small": {
+        "item": "hide-scraped-small",
+        "count": 1,
+        "station": {},
+        "ingredients": [
+            {
+                "item": "knife",
+                "count": 1
+            },
+            {
+                "item": "hide-soaked-small",
+                "count": 1
+            }
+        ]
+    },
+    "hide-scraped-medium": {
+        "item": "hide-scraped-medium",
+        "count": 1,
+        "station": {},
+        "ingredients": [
+            {
+                "item": "knife",
+                "count": 1
+            },
+            {
+                "item": "hide-soaked-medium",
+                "count": 1
+            }
+        ]
+    },
+    "hide-scraped-large": {
+        "item": "hide-scraped-large",
+        "count": 1,
+        "station": {},
+        "ingredients": [
+            {
+                "item": "knife",
+                "count": 1
+            },
+            {
+                "item": "hide-soaked-large",
+                "count": 1
+            }
+        ]
+    },
+    "hide-scraped-huge": {
+        "item": "hide-scraped-huge",
+        "count": 1,
+        "station": {},
+        "ingredients": [
+            {
+                "item": "knife",
+                "count": 1
+            },
+            {
+                "item": "hide-soaked-huge",
+                "count": 1
+            }
+        ]
+    },
+    "hide-prepared-small": {
+        "item": "hide-prepared-small",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "weak-tannin",
+                "count": 10
+            },
+            {
+                "item": "hide-scraped-small",
+                "count": 1
+            }
+        ]
+    },
+    "hide-prepared-medium": {
+        "item": "hide-prepared-medium",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "weak-tannin",
+                "count": 10
+            },
+            {
+                "item": "hide-scraped-medium",
+                "count": 1
+            }
+        ]
+    },
+    "hide-prepared-large": {
+        "item": "hide-prepared-large",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "weak-tannin",
+                "count": 10
+            },
+            {
+                "item": "hide-scraped-large",
+                "count": 1
+            }
+        ]
+    },
+    "hide-prepared-huge": {
+        "item": "hide-prepared-huge",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "weak-tannin",
+                "count": 10
+            },
+            {
+                "item": "hide-scraped-huge",
+                "count": 1
+            }
+        ]
+    }
+}

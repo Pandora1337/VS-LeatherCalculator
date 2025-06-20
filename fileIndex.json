@@ -1,0 +1,18 @@
+{
+    "recipes": {
+        "root": "recipes",
+        "files": [
+            "hides.json",
+            "leather-sturdy.json",
+            "leather.json"
+        ]
+    },
+    "items": {
+        "root": "items",
+        "files": [
+            "hides.json",
+            "leather-sturdy.json",
+            "leather.json"
+        ]
+    }
+}

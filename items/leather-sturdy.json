@@ -1,0 +1,51 @@
+{
+    "cooking-pot": {
+        "name": "Cooking Pot",
+        "id": "claypot-cooked"
+    },
+    "saltpeter": {
+        "name": "Saltpeter",
+        "id": "saltpeter",
+        "liquid": false
+    },
+    "beeswax": {
+        "name": "Beeswax",
+        "id": "beeswax",
+        "liquid": false
+    },
+    "powder-sulfur": {
+        "name": "Powdered Sulfur",
+        "id": "powder-sulfur",
+        "liquid": false
+    },
+    "crushed-chromite": {
+        "name": "Crushed Chromite",
+        "id": "crushed-chromite",
+        "liquid": false
+    },
+    "sulfuric-acid": {
+        "name": "Sulfuric Acid",
+        "id": "acid-full-sulfuric",
+        "liquid": true
+    },
+    "chromium-sulfate": {
+        "name": "Chromium Sulfate",
+        "id": "sulfate-full-chromite",
+        "liquid": true
+    },
+    "hide-chromium-large": {
+        "name": "Chromium Tanned Hide (Large)",
+        "id": "hide-chromium-large",
+        "liquid": false
+    },
+    "hide-chromium-huge": {
+        "name": "Chromium Tanned Hide (Huge)",
+        "id": "hide-chromium-huge",
+        "liquid": false
+    },
+    "leather-sturdy": {
+        "name": "Sturdy Leather",
+        "id": "leather-sturdy",
+        "liquid": false
+    }
+}

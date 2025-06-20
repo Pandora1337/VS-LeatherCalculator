@@ -1,0 +1,154 @@
+{
+    "weak-tannin": {
+        "item": "weak-tannin",
+        "count": 10,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "water",
+                "count": 10
+            },
+            {
+                "item": "log-oak",
+                "count": 1,
+                "option": {
+                    "item": "log-acacia",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    "strong-tannin": {
+        "item": "strong-tannin",
+        "count": 10,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "weak-tannin",
+                "count": 10
+            },
+            {
+                "item": "log-oak",
+                "count": 1,
+                "option": {
+                    "item": "log-acacia",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    "dilutedborax": {
+        "item": "dilutedborax",
+        "count": 5,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "water",
+                "count": 5
+            },
+            {
+                "item": "powder-borax",
+                "count": 2
+            }
+        ]
+    },
+    "limewater": {
+        "item": "limewater",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "water",
+                "count": 1
+            },
+            {
+                "item": "lime",
+                "count": 1
+            }
+        ]
+    },
+    "leather-small": {
+        "item": "leather",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "strong-tannin",
+                "count": 10
+            },
+            {
+                "item": "hide-prepared-small",
+                "count": 1
+            }
+        ]
+    },
+    "leather-medium": {
+        "item": "leather",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "strong-tannin",
+                "count": 10
+            },
+            {
+                "item": "hide-prepared-medium",
+                "count": 1
+            }
+        ]
+    },
+    "leather-large": {
+        "item": "leather",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "strong-tannin",
+                "count": 10
+            },
+            {
+                "item": "hide-prepared-large",
+                "count": 1
+            }
+        ]
+    },
+    "leather-huge": {
+        "item": "leather",
+        "count": 1,
+        "station": {
+            "item": "barrel",
+            "portionSize": 50
+        },
+        "ingredients": [
+            {
+                "item": "strong-tannin",
+                "count": 10
+            },
+            {
+                "item": "hide-prepared-huge",
+                "count": 1
+            }
+        ]
+    }
+}
